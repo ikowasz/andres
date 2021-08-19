@@ -1,0 +1,12 @@
+condition(
+  contains "ananas" && contains "pizz"
+)
+
+script(
+  0: message("moze tam zwyczajnie nasrasz?"),
+  1: message("ananas najlepszy"),
+  0: message("wolalbym juz chuja do mordy"),
+  1: message("masz pedalskie kubki smakowe, nie umiesz docenic prawdziwej pizzy"),
+  0: message("japa koniu"),
+  1: message("rucham ci matke")
+)

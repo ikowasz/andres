@@ -1,0 +1,15 @@
+condition(
+  contains "andres"
+)
+
+script(
+  1: message("ANDRES TO CEL JEBANY A JEGO MATKA TO CHUJ"),
+  0: message("chyba twoja morda kalafiorze"),
+  1: message("nie jestes wart, zeby mi buty lizac"),
+  0: message("kolego"),
+  0: message("po pierwsze to zamknij morde"),
+  0: message("a po drugie to spierdalaj"),
+  1: message("HAH, takie ORYGINALNE, teksty z Walaszka, pff"),
+  0: message("pff to robi pizda twojej starej jak ja pierdole"),
+  1: message("chcialbys")
+)

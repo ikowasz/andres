@@ -1,0 +1,12 @@
+condition(
+  (contains "sernik" || contains "serniczek") && contains "rodzyn"
+)
+
+script(
+  0: message("ZADNYCH RODZYNEK W SERNIKU"),
+  1: message("tylko sernik z rodzynkami!"),
+  0: message("chyba cie pogrzalo"),
+  1: message("chuja sie znasz na sernikach"),
+  0: message("japa koniu"),
+  1: message("rucham ci matke"),
+)
